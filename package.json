@@ -1,13 +1,14 @@
 {
   "name": "next-tutorial",
+  "repository": "git@github.com:pepetopo/next-tutorial.git",
   "version": "1.0.0",
-  "description": "",
+  "description": "Next.js tutorial",
   "main": "index.js",
   "scripts": {
     "dev": "next"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["next", "react", "SSR"],
+  "author": "Elias Ylänen",
   "license": "ISC",
   "dependencies": {
     "next": "^4.1.4",
