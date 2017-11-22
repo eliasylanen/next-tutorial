@@ -6,13 +6,13 @@ const layoutStyle = {
   border: '1px solid #DDD',
 };
 
-const pStyle = {
+const style = {
   fontFamily: 'Arial',
 };
 
 export default ({ render }) => (
   <main style={layoutStyle}>
     <Header />
-    {render(pStyle)}
+    {render(style)}
   </main>
 );
