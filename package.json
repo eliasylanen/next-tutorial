@@ -1,16 +1,23 @@
 {
   "name": "next-tutorial",
   "repository": "git@github.com:pepetopo/next-tutorial.git",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Next.js tutorial",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "next"
+    "dev": "node server.js"
   },
-  "keywords": ["next", "react", "SSR"],
+  "keywords": [
+    "next",
+    "react",
+    "SSR",
+    "exress"
+  ],
   "author": "Elias Ylänen",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2",
+    "isomorphic-unfetch": "^2.0.0",
     "next": "^4.1.4",
     "react": "^16.1.1",
     "react-dom": "^16.1.1"
