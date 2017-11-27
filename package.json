@@ -5,14 +5,11 @@
   "description": "Next.js tutorial",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
-  "keywords": [
-    "next",
-    "react",
-    "SSR",
-    "exress"
-  ],
+  "keywords": ["next", "react", "SSR", "exress"],
   "author": "Elias Ylänen",
   "license": "ISC",
   "dependencies": {
